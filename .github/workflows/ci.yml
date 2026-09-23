@@ -69,6 +69,16 @@ jobs:
           cmake --install build-install --prefix "$RUNNER_TEMP/spatialsnapshot"
           cmp LICENSE "$RUNNER_TEMP/spatialsnapshot/share/licenses/SpatialSnapshot/LICENSE"
           "$RUNNER_TEMP/spatialsnapshot/bin/ssvalidate" Fixtures/v1/mesh-depth-still.ssps
+      - name: Blender add-on ctypes reader and timeline tests
+        run: |
+          if [ "$RUNNER_OS" = macOS ]; then
+            export SPATIALSNAPSHOT_C_LIBRARY="$RUNNER_TEMP/spatialsnapshot/lib/libspatialsnapshot.dylib"
+          else
+            export SPATIALSNAPSHOT_C_LIBRARY="$RUNNER_TEMP/spatialsnapshot/lib/libspatialsnapshot.so"
+          fi
+          python3 -m unittest discover -s Tests/BlenderTests -p 'test_portable.py' -v
+      - name: Build Blender extension package
+        run: python3 Scripts/package-b3d.py
 
   lab:
     name: Lab (macOS, iOS, Simulator)

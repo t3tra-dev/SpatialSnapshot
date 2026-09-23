@@ -23,6 +23,7 @@ Apps/SpatialSnapshotLab/Configuration/*.local.xcconfig
 # GLTFKit2 is downloaded and verified by SwiftPM, never committed as a binary.
 Apps/SpatialSnapshotLab/Vendor/GLTFKit2/*.xcframework/
 Apps/SpatialSnapshotLab/Vendor/GLTFKit2/*.zip
+Apps/SpatialSnapshotB3d/lib/
 
 # Local environment configuration
 .env

@@ -10,4 +10,4 @@ SpatialSnapshot の Apache License 2.0 は, 以下の第三者ソフトウェア
 
 バイナリの配布方針・出典・チェックサムは [Vendor の説明](Apps/SpatialSnapshotLab/Vendor/GLTFKit2/README.md), アプリに含める通知全文は [ThirdPartyNotices.txt](Apps/SpatialSnapshotLab/Resources/ThirdPartyNotices.txt) にあります.
 
-テストで外部にインストールされた LZ4, FFmpeg, libheif 等を利用する場合, それぞれのライセンスが適用されます. これらのライブラリ自体は C コアに同梱していません.
+Blender アドオンやテストで外部にインストールされた Blender, LZ4, FFmpeg, libheif 等を利用する場合, それぞれのライセンスが適用されます. これらのソフトウェア自体は本リポジトリやアドオン ZIP に同梱していません.
