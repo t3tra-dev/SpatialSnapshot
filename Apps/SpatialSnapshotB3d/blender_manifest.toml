@@ -1,0 +1,17 @@
+schema_version = "1.0.0"
+id = "spatial_snapshot"
+version = "0.1.0"
+name = "SpatialSnapshot"
+tagline = "Import SSPS cameras, meshes and images from HEIC and MOV"
+maintainer = "SpatialSnapshot contributors"
+type = "add-on"
+website = "https://github.com/t3tra-dev/SpatialSnapshot"
+tags = ["Import-Export", "Animation"]
+blender_version_min = "5.0.0"
+license = ["SPDX:GPL-3.0-or-later"]
+
+[permissions]
+files = "Read captures and native libraries, write decoded image caches"
+
+[build]
+paths_exclude_pattern = ["__pycache__/", "*.pyc", ".DS_Store"]

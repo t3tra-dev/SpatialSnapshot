@@ -22,6 +22,7 @@ C コアの実行時依存は C 標準ライブラリと数学ライブラリで
 - [C ABI](Specs/C-ABI.md)：所有権, クエリ, エラー, リソース上限
 - [Binding API](Docs/Bindings.md) / [Apple adapters](Docs/Apple-Adapters.md)
 - [SpatialSnapshot Lab](Apps/SpatialSnapshotLab/README.md)：iOS の収録・検査, macOS の Editor・検査
+- [SpatialSnapshot B3d](Apps/SpatialSnapshotB3d/README.md)：Blender でのカメラ・メッシュ・画像投影と動画再生
 
 ## ビルドとテスト
 
@@ -53,6 +54,8 @@ sh Scripts/check-abi.sh
 | macOS 15 / Xcode 26.0 | 上記に加え Capture の座標変換・Editor のロジックテスト, Lab の macOS / iOS / Simulator 署名なしビルド |
 
 CI は runner に付属する Swift を使い, バージョンをログに記録します. macOS runner で Metal が使える場合は Apple media・RealityKit・Editor 描画の統合テストも有効にし, 使えない場合はスキップ理由をログに残します. ARKit の収録は対応実機で確認してください. Lab の署名設定と GLTFKit2 の取得方法は [起動手順](Apps/SpatialSnapshotLab/README.md#起動)を参照してください.
+
+両環境で Blender アドオンの ctypes reader・時刻変換テストとインストール用 ZIP の作成も実行します. Blender 本体でのレンダー検証は `sh Scripts/check-b3d.sh` を使用します.
 
 ## Swift の例
 
@@ -91,4 +94,4 @@ C コアは画像・動画の pixel codec を含みません. LZ4 writer は lit
 
 ## ライセンス
 
-本プロジェクトのソースコード, ドキュメント, 合成 fixtures は [Apache License 2.0](LICENSE) で提供します. 同梱する第三者ソフトウェアには各ライセンスが適用されます. [第三者ライセンス](THIRD_PARTY_NOTICES.md)を参照してください.
+Blender アドオンの `Apps/SpatialSnapshotB3d/` は [GPL-3.0-or-later](Apps/SpatialSnapshotB3d/LICENSE), それ以外の本プロジェクトのソースコード, ドキュメント, 合成 fixtures は [Apache License 2.0](LICENSE) で提供します. 同梱する第三者ソフトウェアには各ライセンスが適用されます. [第三者ライセンス](THIRD_PARTY_NOTICES.md)を参照してください.
