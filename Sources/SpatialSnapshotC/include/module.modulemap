@@ -1,0 +1,5 @@
+module SpatialSnapshotC {
+    header "spatialsnapshot/spatialsnapshot.h"
+    export *
+}
+

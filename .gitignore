@@ -1,0 +1,30 @@
+.build/
+.cache/
+build*/
+.swiftpm/
+.DS_Store
+*.profraw
+Fuzz/corpus-generated/
+__pycache__/
+*.py[cod]
+
+# Local Xcode state and signing material
+DerivedData/
+xcuserdata/
+*.xcuserstate
+*.xccheckout
+*.xcscmblueprint
+*.p12
+*.p8
+*.mobileprovision
+*.provisionprofile
+Apps/SpatialSnapshotLab/Configuration/*.local.xcconfig
+
+# GLTFKit2 is downloaded and verified by SwiftPM, never committed as a binary.
+Apps/SpatialSnapshotLab/Vendor/GLTFKit2/*.xcframework/
+Apps/SpatialSnapshotLab/Vendor/GLTFKit2/*.zip
+
+# Local environment configuration
+.env
+.env.*
+!.env.example

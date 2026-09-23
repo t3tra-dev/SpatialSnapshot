@@ -1,0 +1,90 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  tests:
+    name: Tests (${{ matrix.os }})
+    runs-on: ${{ matrix.os }}
+    timeout-minutes: 30
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-24.04, macos-15]
+    env:
+      CC: clang
+      UBSAN_OPTIONS: halt_on_error=1:print_stacktrace=1
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          persist-credentials: false
+      - name: Select Xcode 26
+        if: runner.os == 'macOS'
+        run: echo 'DEVELOPER_DIR=/Applications/Xcode_26.0.app/Contents/Developer' >> "$GITHUB_ENV"
+      - name: Install Linux test dependencies
+        if: runner.os == 'Linux'
+        run: |
+          sudo apt-get update
+          sudo apt-get install --no-install-recommends -y liblz4-dev
+      - name: Install macOS test dependencies
+        if: runner.os == 'macOS'
+        run: |
+          brew install lz4
+          echo "CMAKE_PREFIX_PATH=$(brew --prefix lz4)" >> "$GITHUB_ENV"
+      - name: Detect Apple rendering services
+        if: runner.os == 'macOS'
+        run: |
+          task_metal=$(swift -e 'import Metal; print(MTLCreateSystemDefaultDevice() == nil ? "unavailable" : "available")')
+          if [ "$task_metal" = available ]; then
+            echo 'SPATIALSNAPSHOT_MEDIA_TESTS=1' >> "$GITHUB_ENV"
+            echo "SPATIALSNAPSHOT_EDITOR_UI_RENDER=$RUNNER_TEMP/editor-previews" >> "$GITHUB_ENV"
+            mkdir -p "$RUNNER_TEMP/editor-previews"
+          else
+            echo '::notice::No Metal device; Apple media and rendering integration tests require a Mac with Metal. Core, Swift API, coordinate conversion and Editor logic tests still run.'
+          fi
+      - name: Report toolchain
+        run: |
+          clang --version
+          cmake --version
+          python3 --version
+          swift --version
+      - name: C sanitizers, conformance corpus and Swift tests
+        run: sh Scripts/test.sh
+      - name: Check public C ABI
+        run: sh Scripts/check-abi.sh
+      - name: Check shared library installation
+        run: |
+          cmake -S . -B build-install -DCMAKE_BUILD_TYPE=Release -DBUILD_SHARED_LIBS=ON -DBUILD_TESTING=OFF
+          cmake --build build-install --parallel
+          cmake --install build-install --prefix "$RUNNER_TEMP/spatialsnapshot"
+          cmp LICENSE "$RUNNER_TEMP/spatialsnapshot/share/licenses/SpatialSnapshot/LICENSE"
+          "$RUNNER_TEMP/spatialsnapshot/bin/ssvalidate" Fixtures/v1/mesh-depth-still.ssps
+
+  lab:
+    name: Lab (macOS, iOS, Simulator)
+    runs-on: macos-15
+    timeout-minutes: 30
+    env:
+      DEVELOPER_DIR: /Applications/Xcode_26.0.app/Contents/Developer
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          persist-credentials: false
+      - name: Report Xcode
+        run: xcodebuild -version
+      - name: Build macOS app without signing
+        run: sh Scripts/build-lab.sh macOS
+      - name: Build iOS Simulator app without signing
+        run: sh Scripts/build-lab.sh simulator
+      - name: Build iOS app without signing
+        run: sh Scripts/build-lab.sh iOS

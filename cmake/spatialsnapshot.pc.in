@@ -1,0 +1,10 @@
+prefix=${pcfiledir}/@SS_PC_PREFIX_RELATIVE@
+libdir=${pcfiledir}/..
+includedir=${pcfiledir}/@SS_PC_INCLUDE_RELATIVE@
+
+Name: SpatialSnapshot
+Description: Portable SSPS 1.0 runtime
+Version: @PROJECT_VERSION@
+Libs: -L${libdir} -lspatialsnapshot
+Libs.private: @SS_PC_PRIVATE_LIBS@
+Cflags: -I${includedir}

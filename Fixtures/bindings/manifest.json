@@ -1,0 +1,856 @@
+{
+  "qt-minimal.mov": {
+    "status": "OK",
+    "domains": []
+  },
+  "qt-bframes.mov": {
+    "status": "OK",
+    "domains": []
+  },
+  "qt-v0.mov": {
+    "status": "OK",
+    "domains": []
+  },
+  "qt-arbitrary-key.mov": {
+    "status": "OK",
+    "domains": []
+  },
+  "qt-uuid-key.mov": {
+    "status": "OK",
+    "domains": []
+  },
+  "qt-stco-stz2.mov": {
+    "status": "OK",
+    "domains": []
+  },
+  "qt-unknown-key-child.mov": {
+    "status": "OK",
+    "domains": []
+  },
+  "qt-unknown-entry-child.mov": {
+    "status": "OK",
+    "domains": []
+  },
+  "heif-minimal.heif": {
+    "status": "OK",
+    "domains": []
+  },
+  "heif-meta-first.heif": {
+    "status": "OK",
+    "domains": []
+  },
+  "heif-wide-ids.heif": {
+    "status": "OK",
+    "domains": []
+  },
+  "heif-grid.heif": {
+    "status": "OK",
+    "domains": []
+  },
+  "heif-square-pasp.heif": {
+    "status": "OK",
+    "domains": []
+  },
+  "heif-unknown-property.heif": {
+    "status": "OK",
+    "domains": []
+  },
+  "heif-identity-clap.heif": {
+    "status": "OK",
+    "domains": []
+  },
+  "qt-missing.mov": {
+    "status": "MALFORMED",
+    "domains": [
+      "BINDING_MALFORMED"
+    ]
+  },
+  "qt-reserved-zero.mov": {
+    "status": "MALFORMED",
+    "domains": [
+      "BINDING_MALFORMED"
+    ]
+  },
+  "qt-reserved-future.mov": {
+    "status": "MALFORMED",
+    "domains": [
+      "BINDING_MALFORMED"
+    ]
+  },
+  "qt-key-nul.mov": {
+    "status": "MALFORMED",
+    "domains": [
+      "BINDING_MALFORMED"
+    ]
+  },
+  "qt-wrong-datatype.mov": {
+    "status": "MALFORMED",
+    "domains": [
+      "BINDING_MALFORMED"
+    ]
+  },
+  "qt-locale.mov": {
+    "status": "MALFORMED",
+    "domains": [
+      "BINDING_MALFORMED"
+    ]
+  },
+  "qt-btrt.mov": {
+    "status": "MALFORMED",
+    "domains": [
+      "BINDING_MALFORMED"
+    ]
+  },
+  "qt-no-cdsc.mov": {
+    "status": "MALFORMED",
+    "domains": [
+      "BINDING_MALFORMED"
+    ]
+  },
+  "qt-two-cdsc.mov": {
+    "status": "MALFORMED",
+    "domains": [
+      "BINDING_MALFORMED"
+    ]
+  },
+  "qt-meta-ctts.mov": {
+    "status": "MALFORMED",
+    "domains": [
+      "BINDING_MALFORMED"
+    ]
+  },
+  "qt-meta-stss.mov": {
+    "status": "MALFORMED",
+    "domains": [
+      "BINDING_MALFORMED"
+    ]
+  },
+  "qt-meta-flags.mov": {
+    "status": "MALFORMED",
+    "domains": [
+      "BINDING_MALFORMED"
+    ]
+  },
+  "qt-video-flags.mov": {
+    "status": "MALFORMED",
+    "domains": [
+      "BINDING_MALFORMED"
+    ]
+  },
+  "qt-meta-layer.mov": {
+    "status": "MALFORMED",
+    "domains": [
+      "BINDING_MALFORMED"
+    ]
+  },
+  "qt-meta-volume.mov": {
+    "status": "MALFORMED",
+    "domains": [
+      "BINDING_MALFORMED"
+    ]
+  },
+  "qt-gmin.mov": {
+    "status": "MALFORMED",
+    "domains": [
+      "BINDING_MALFORMED"
+    ]
+  },
+  "qt-movie-timescale.mov": {
+    "status": "MALFORMED",
+    "domains": [
+      "BINDING_MALFORMED"
+    ]
+  },
+  "qt-video-timescale.mov": {
+    "status": "MALFORMED",
+    "domains": [
+      "BINDING_MALFORMED"
+    ]
+  },
+  "qt-meta-timescale.mov": {
+    "status": "MALFORMED",
+    "domains": [
+      "BINDING_MALFORMED"
+    ]
+  },
+  "qt-major-brand.mov": {
+    "status": "MALFORMED",
+    "domains": [
+      "BINDING_MALFORMED"
+    ]
+  },
+  "qt-compatible-brand.mov": {
+    "status": "MALFORMED",
+    "domains": [
+      "BINDING_MALFORMED"
+    ]
+  },
+  "qt-moof.mov": {
+    "status": "MALFORMED",
+    "domains": [
+      "BINDING_MALFORMED"
+    ]
+  },
+  "qt-clap.mov": {
+    "status": "MALFORMED",
+    "domains": [
+      "BINDING_MALFORMED"
+    ]
+  },
+  "qt-pasp.mov": {
+    "status": "MALFORMED",
+    "domains": [
+      "BINDING_MALFORMED"
+    ]
+  },
+  "qt-edts.mov": {
+    "status": "MALFORMED",
+    "domains": [
+      "BINDING_MALFORMED"
+    ]
+  },
+  "qt-clip.mov": {
+    "status": "MALFORMED",
+    "domains": [
+      "BINDING_MALFORMED"
+    ]
+  },
+  "qt-raster.mov": {
+    "status": "MALFORMED",
+    "domains": [
+      "BINDING_MALFORMED"
+    ]
+  },
+  "qt-interval.mov": {
+    "status": "MALFORMED",
+    "domains": [
+      "BINDING_MALFORMED"
+    ]
+  },
+  "qt-last-video-duration.mov": {
+    "status": "MALFORMED",
+    "domains": [
+      "BINDING_MALFORMED"
+    ]
+  },
+  "heif-missing.heif": {
+    "status": "MALFORMED",
+    "domains": [
+      "BINDING_MALFORMED"
+    ]
+  },
+  "heif-name.heif": {
+    "status": "MALFORMED",
+    "domains": [
+      "BINDING_MALFORMED"
+    ]
+  },
+  "heif-mime-parameter.heif": {
+    "status": "MALFORMED",
+    "domains": [
+      "BINDING_MALFORMED"
+    ]
+  },
+  "heif-encoding.heif": {
+    "status": "MALFORMED",
+    "domains": [
+      "BINDING_MALFORMED"
+    ]
+  },
+  "heif-hidden.heif": {
+    "status": "MALFORMED",
+    "domains": [
+      "BINDING_MALFORMED"
+    ]
+  },
+  "heif-protected.heif": {
+    "status": "MALFORMED",
+    "domains": [
+      "BINDING_MALFORMED"
+    ]
+  },
+  "heif-targets.heif": {
+    "status": "MALFORMED",
+    "domains": [
+      "BINDING_MALFORMED"
+    ]
+  },
+  "heif-no-target.heif": {
+    "status": "MALFORMED",
+    "domains": [
+      "BINDING_MALFORMED"
+    ]
+  },
+  "heif-external.heif": {
+    "status": "MALFORMED",
+    "domains": [
+      "BINDING_MALFORMED"
+    ]
+  },
+  "heif-extents.heif": {
+    "status": "MALFORMED",
+    "domains": [
+      "BINDING_MALFORMED"
+    ]
+  },
+  "heif-overlap.heif": {
+    "status": "MALFORMED",
+    "domains": [
+      "BINDING_MALFORMED"
+    ]
+  },
+  "heif-raster.heif": {
+    "status": "MALFORMED",
+    "domains": [
+      "BINDING_MALFORMED"
+    ]
+  },
+  "heif-rotate.heif": {
+    "status": "MALFORMED",
+    "domains": [
+      "BINDING_MALFORMED"
+    ]
+  },
+  "heif-mirror.heif": {
+    "status": "MALFORMED",
+    "domains": [
+      "BINDING_MALFORMED"
+    ]
+  },
+  "heif-pasp.heif": {
+    "status": "MALFORMED",
+    "domains": [
+      "BINDING_MALFORMED"
+    ]
+  },
+  "heif-grid-transform.heif": {
+    "status": "MALFORMED",
+    "domains": [
+      "BINDING_MALFORMED"
+    ]
+  },
+  "heif-handler.heif": {
+    "status": "MALFORMED",
+    "domains": [
+      "BINDING_MALFORMED"
+    ]
+  },
+  "heif-video.heif": {
+    "status": "MALFORMED",
+    "domains": [
+      "BINDING_MALFORMED"
+    ]
+  },
+  "heif-derived.heif": {
+    "status": "MALFORMED",
+    "domains": [
+      "BINDING_MALFORMED"
+    ]
+  },
+  "heif-essential-unknown.heif": {
+    "status": "UNSUPPORTED",
+    "domains": [
+      "UNSUPPORTED_BINDING"
+    ]
+  },
+  "heif-major.heif": {
+    "status": "UNSUPPORTED",
+    "domains": [
+      "UNSUPPORTED_SSPS"
+    ]
+  },
+  "qt-major.mov": {
+    "status": "UNSUPPORTED",
+    "domains": [
+      "UNSUPPORTED_SSPS"
+    ]
+  },
+  "heif-crc.heif": {
+    "status": "MALFORMED",
+    "domains": [
+      "SSPS_MALFORMED"
+    ]
+  },
+  "qt-crc.mov": {
+    "status": "MALFORMED",
+    "domains": [
+      "SSPS_MALFORMED"
+    ]
+  },
+  "heif-exif-1-False.heif": {
+    "status": "OK",
+    "domains": []
+  },
+  "heif-exif-1-True.heif": {
+    "status": "OK",
+    "domains": []
+  },
+  "heif-exif-2-False.heif": {
+    "status": "MALFORMED",
+    "domains": [
+      "BINDING_MALFORMED"
+    ]
+  },
+  "heif-exif-2-True.heif": {
+    "status": "MALFORMED",
+    "domains": [
+      "BINDING_MALFORMED"
+    ]
+  },
+  "heif-exif-8-False.heif": {
+    "status": "MALFORMED",
+    "domains": [
+      "BINDING_MALFORMED"
+    ]
+  },
+  "heif-exif-8-True.heif": {
+    "status": "MALFORMED",
+    "domains": [
+      "BINDING_MALFORMED"
+    ]
+  },
+  "heif-xmp-attribute-1.heif": {
+    "status": "OK",
+    "domains": []
+  },
+  "heif-xmp-element-1.heif": {
+    "status": "OK",
+    "domains": []
+  },
+  "heif-xmp-qualified-1.heif": {
+    "status": "OK",
+    "domains": []
+  },
+  "heif-xmp-utf16-1.heif": {
+    "status": "OK",
+    "domains": []
+  },
+  "heif-xmp-entity-1.heif": {
+    "status": "OK",
+    "domains": []
+  },
+  "heif-xmp-attribute-6.heif": {
+    "status": "MALFORMED",
+    "domains": [
+      "BINDING_MALFORMED"
+    ]
+  },
+  "heif-xmp-element-6.heif": {
+    "status": "MALFORMED",
+    "domains": [
+      "BINDING_MALFORMED"
+    ]
+  },
+  "heif-xmp-qualified-6.heif": {
+    "status": "MALFORMED",
+    "domains": [
+      "BINDING_MALFORMED"
+    ]
+  },
+  "heif-xmp-utf16-6.heif": {
+    "status": "MALFORMED",
+    "domains": [
+      "BINDING_MALFORMED"
+    ]
+  },
+  "heif-xmp-entity-6.heif": {
+    "status": "MALFORMED",
+    "domains": [
+      "BINDING_MALFORMED"
+    ]
+  },
+  "heif-independent-errors.heif": {
+    "status": "MALFORMED",
+    "domains": [
+      "BINDING_MALFORMED"
+    ]
+  },
+  "qt-independent-errors.mov": {
+    "status": "MALFORMED",
+    "domains": [
+      "BINDING_MALFORMED"
+    ]
+  },
+  "qt-host-stsc-8-0-0.mov": {
+    "status": "MALFORMED",
+    "domains": [
+      "QUICKTIME_MALFORMED"
+    ]
+  },
+  "qt-host-stsc-12-0-0.mov": {
+    "status": "MALFORMED",
+    "domains": [
+      "QUICKTIME_MALFORMED"
+    ]
+  },
+  "qt-host-stsc-16-2-0.mov": {
+    "status": "MALFORMED",
+    "domains": [
+      "QUICKTIME_MALFORMED"
+    ]
+  },
+  "qt-host-stsz-8-4-0.mov": {
+    "status": "MALFORMED",
+    "domains": [
+      "QUICKTIME_MALFORMED"
+    ]
+  },
+  "qt-host-stts-8-2-0.mov": {
+    "status": "MALFORMED",
+    "domains": [
+      "QUICKTIME_MALFORMED"
+    ]
+  },
+  "qt-host-co64-8-0-0.mov": {
+    "status": "MALFORMED",
+    "domains": [
+      "QUICKTIME_MALFORMED"
+    ]
+  },
+  "qt-host-co64-8-18446744073709551615-0.mov": {
+    "status": "MALFORMED",
+    "domains": [
+      "QUICKTIME_MALFORMED"
+    ]
+  },
+  "qt-host-tkhd-20-1-1.mov": {
+    "status": "MALFORMED",
+    "domains": [
+      "QUICKTIME_MALFORMED"
+    ]
+  },
+  "qt-host-tkhd-20-0-0.mov": {
+    "status": "MALFORMED",
+    "domains": [
+      "QUICKTIME_MALFORMED"
+    ]
+  },
+  "qt-host-mdhd-20-0-0.mov": {
+    "status": "MALFORMED",
+    "domains": [
+      "QUICKTIME_MALFORMED"
+    ]
+  },
+  "qt-binding-tkhd-52-0.mov": {
+    "status": "MALFORMED",
+    "domains": [
+      "BINDING_MALFORMED"
+    ]
+  },
+  "qt-binding-tkhd-88-0.mov": {
+    "status": "MALFORMED",
+    "domains": [
+      "BINDING_MALFORMED"
+    ]
+  },
+  "qt-binding-tkhd-88-1.mov": {
+    "status": "MALFORMED",
+    "domains": [
+      "BINDING_MALFORMED"
+    ]
+  },
+  "qt-binding-tkhd-46-1.mov": {
+    "status": "MALFORMED",
+    "domains": [
+      "BINDING_MALFORMED"
+    ]
+  },
+  "qt-binding-mdhd-24-0.mov": {
+    "status": "MALFORMED",
+    "domains": [
+      "BINDING_MALFORMED"
+    ]
+  },
+  "qt-binding-mdhd-24-1.mov": {
+    "status": "MALFORMED",
+    "domains": [
+      "BINDING_MALFORMED"
+    ]
+  },
+  "qt-binding-mvhd-24-0.mov": {
+    "status": "MALFORMED",
+    "domains": [
+      "BINDING_MALFORMED"
+    ]
+  },
+  "qt-binding-tkhd-28-0.mov": {
+    "status": "MALFORMED",
+    "domains": [
+      "BINDING_MALFORMED"
+    ]
+  },
+  "qt-binding-tkhd-28-1.mov": {
+    "status": "MALFORMED",
+    "domains": [
+      "BINDING_MALFORMED"
+    ]
+  },
+  "qt-value-size-0.mov": {
+    "status": "MALFORMED",
+    "domains": [
+      "BINDING_MALFORMED"
+    ]
+  },
+  "qt-value-size-1.mov": {
+    "status": "MALFORMED",
+    "domains": [
+      "BINDING_MALFORMED"
+    ]
+  },
+  "qt-value-size-7.mov": {
+    "status": "MALFORMED",
+    "domains": [
+      "BINDING_MALFORMED"
+    ]
+  },
+  "qt-value-size-9.mov": {
+    "status": "MALFORMED",
+    "domains": [
+      "BINDING_MALFORMED"
+    ]
+  },
+  "qt-value-size-4294967295.mov": {
+    "status": "MALFORMED",
+    "domains": [
+      "BINDING_MALFORMED"
+    ]
+  },
+  "qt-value-type.mov": {
+    "status": "MALFORMED",
+    "domains": [
+      "BINDING_MALFORMED"
+    ]
+  },
+  "qt-split-packet.mov": {
+    "status": "MALFORMED",
+    "domains": [
+      "BINDING_MALFORMED"
+    ]
+  },
+  "qt-wrong-bundle-timestamp.mov": {
+    "status": "MALFORMED",
+    "domains": [
+      "BINDING_MALFORMED"
+    ]
+  },
+  "qt-end-own-sample.mov": {
+    "status": "MALFORMED",
+    "domains": [
+      "BINDING_MALFORMED"
+    ]
+  },
+  "qt-ctts-without-reordering.mov": {
+    "status": "MALFORMED",
+    "domains": [
+      "BINDING_MALFORMED"
+    ]
+  },
+  "qt-cslg.mov": {
+    "status": "OK",
+    "domains": []
+  },
+  "qt-interframe.mov": {
+    "status": "OK",
+    "domains": []
+  },
+  "qt-extended-prefix.mov": {
+    "status": "OK",
+    "domains": []
+  },
+  "heif-forward-compatible.heif": {
+    "status": "OK",
+    "domains": []
+  },
+  "qt-forward-compatible.mov": {
+    "status": "OK",
+    "domains": []
+  },
+  "qt-cslg-contradiction.mov": {
+    "status": "MALFORMED",
+    "domains": [
+      "BINDING_MALFORMED"
+    ]
+  },
+  "qt-stz2-four-bit.mov": {
+    "status": "OK",
+    "domains": []
+  },
+  "qt-stz2-sixteen-bit.mov": {
+    "status": "OK",
+    "domains": []
+  },
+  "qt-missing-avcC.mov": {
+    "status": "MALFORMED",
+    "domains": [
+      "QUICKTIME_MALFORMED"
+    ]
+  },
+  "qt-duration-v1-long.mov": {
+    "status": "OK",
+    "domains": []
+  },
+  "qt-count-resource.mov": {
+    "status": "RESOURCE_LIMIT",
+    "domains": [
+      "RESOURCE_LIMIT"
+    ]
+  },
+  "qt-description-resource.mov": {
+    "status": "RESOURCE_LIMIT",
+    "domains": [
+      "RESOURCE_LIMIT"
+    ]
+  },
+  "heif-count-resource-iloc.heif": {
+    "status": "RESOURCE_LIMIT",
+    "domains": [
+      "RESOURCE_LIMIT"
+    ]
+  },
+  "heif-count-resource-iinf.heif": {
+    "status": "RESOURCE_LIMIT",
+    "domains": [
+      "RESOURCE_LIMIT"
+    ]
+  },
+  "heif-count-resource-ipma.heif": {
+    "status": "RESOURCE_LIMIT",
+    "domains": [
+      "RESOURCE_LIMIT"
+    ]
+  },
+  "heif-implicit-ssps-length.heif": {
+    "status": "MALFORMED",
+    "domains": [
+      "BINDING_MALFORMED"
+    ]
+  },
+  "heif-no-image-location.heif": {
+    "status": "MALFORMED",
+    "domains": [
+      "HEIF_MALFORMED"
+    ]
+  },
+  "heif-duplicate-id.heif": {
+    "status": "MALFORMED",
+    "domains": [
+      "HEIF_MALFORMED"
+    ]
+  },
+  "heif-item-offset-overflow.heif": {
+    "status": "MALFORMED",
+    "domains": [
+      "HEIF_MALFORMED"
+    ]
+  },
+  "heif-unknown-infe-version.heif": {
+    "status": "UNSUPPORTED",
+    "domains": [
+      "UNSUPPORTED_BINDING"
+    ]
+  },
+  "heif-invalid-ipma-index.heif": {
+    "status": "MALFORMED",
+    "domains": [
+      "HEIF_MALFORMED"
+    ]
+  },
+  "heif-xmp-utf16-surrogate.heif": {
+    "status": "OK",
+    "domains": []
+  },
+  "heif-xmp-utf32.heif": {
+    "status": "OK",
+    "domains": []
+  },
+  "heif-xmp-namespace-alias.heif": {
+    "status": "OK",
+    "domains": []
+  },
+  "heif-xmp-namespace-shadow.heif": {
+    "status": "OK",
+    "domains": []
+  },
+  "heif-xmp-cdata.heif": {
+    "status": "OK",
+    "domains": []
+  },
+  "heif-xmp-cdata-entity.heif": {
+    "status": "MALFORMED",
+    "domains": [
+      "BINDING_MALFORMED"
+    ]
+  },
+  "qt-truncated-1.mov": {
+    "status": "MALFORMED",
+    "domains": [
+      "QUICKTIME_MALFORMED"
+    ]
+  },
+  "qt-truncated-4.mov": {
+    "status": "MALFORMED",
+    "domains": [
+      "QUICKTIME_MALFORMED"
+    ]
+  },
+  "qt-truncated-7.mov": {
+    "status": "MALFORMED",
+    "domains": [
+      "QUICKTIME_MALFORMED"
+    ]
+  },
+  "qt-truncated-12.mov": {
+    "status": "MALFORMED",
+    "domains": [
+      "QUICKTIME_MALFORMED"
+    ]
+  },
+  "qt-truncated-19.mov": {
+    "status": "MALFORMED",
+    "domains": [
+      "QUICKTIME_MALFORMED"
+    ]
+  },
+  "qt-truncated-2041.mov": {
+    "status": "MALFORMED",
+    "domains": [
+      "QUICKTIME_MALFORMED"
+    ]
+  },
+  "heif-truncated-1.heif": {
+    "status": "MALFORMED",
+    "domains": [
+      "HEIF_MALFORMED"
+    ]
+  },
+  "heif-truncated-4.heif": {
+    "status": "MALFORMED",
+    "domains": [
+      "HEIF_MALFORMED"
+    ]
+  },
+  "heif-truncated-7.heif": {
+    "status": "MALFORMED",
+    "domains": [
+      "HEIF_MALFORMED"
+    ]
+  },
+  "heif-truncated-12.heif": {
+    "status": "MALFORMED",
+    "domains": [
+      "HEIF_MALFORMED"
+    ]
+  },
+  "heif-truncated-19.heif": {
+    "status": "MALFORMED",
+    "domains": [
+      "HEIF_MALFORMED"
+    ]
+  },
+  "heif-truncated-984.heif": {
+    "status": "MALFORMED",
+    "domains": [
+      "HEIF_MALFORMED"
+    ]
+  }
+}

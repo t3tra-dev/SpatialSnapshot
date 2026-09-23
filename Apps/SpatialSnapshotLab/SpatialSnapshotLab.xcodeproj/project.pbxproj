@@ -1,0 +1,395 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A1ED17000000000000000601 /* SpatialCaptureShare.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1ED17000000000000000602 /* SpatialCaptureShare.swift */; };
+		A1ED17000000000000000501 /* LabRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1ED17000000000000000502 /* LabRootView.swift */; };
+		A1ED17000000000000000401 /* ThirdPartyNotices.txt in Resources */ = {isa = PBXBuildFile; fileRef = A1ED17000000000000000402 /* ThirdPartyNotices.txt */; };
+		A1ED17000000000000000100 /* EditorTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1ED17000000000000000200 /* EditorTypes.swift */; };
+		A1ED17000000000000000101 /* EditorProjectStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1ED17000000000000000201 /* EditorProjectStore.swift */; };
+		A1ED17000000000000000102 /* EditorModelAsset.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1ED17000000000000000202 /* EditorModelAsset.swift */; };
+		A1ED17000000000000000103 /* EditorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1ED17000000000000000203 /* EditorModel.swift */; };
+		A1ED17000000000000000104 /* EditorGizmo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1ED17000000000000000204 /* EditorGizmo.swift */; };
+		A1ED17000000000000000105 /* EditorViewport.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1ED17000000000000000205 /* EditorViewport.swift */; };
+		A1ED17000000000000000106 /* EditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1ED17000000000000000206 /* EditorView.swift */; };
+		A1ED17000000000000000301 /* GLTFKit2 in Frameworks */ = {isa = PBXBuildFile; platformFilter = macos; productRef = A1ED17000000000000000302 /* GLTFKit2 */; };
+		EFA4A5913E1F46AE9045B201 /* InspectorPresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA4A5913E1F46AE9045B202 /* InspectorPresentation.swift */; };
+		003FF4F45E2E9B02D437CBE3 /* SpatialSnapshotLabApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7BB5F6B35325480D0443B2 /* SpatialSnapshotLabApp.swift */; };
+		0578DF4194A7220210614F48 /* SpatialSnapshotAppleMedia in Frameworks */ = {isa = PBXBuildFile; productRef = FC7528BAFD100FDB18BA31F7 /* SpatialSnapshotAppleMedia */; };
+		777451758638016E29A595AE /* InspectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E6B9F7E65A1904CC4D1944F /* InspectorView.swift */; };
+		8177A26853688243D4B6CDF5 /* RecorderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9DBA5EA5A98DC457F7CE2D1 /* RecorderView.swift */; };
+		93A947AC0D645140565A9894 /* SpatialSnapshotRealityKit in Frameworks */ = {isa = PBXBuildFile; productRef = 01DBB10C67AE7F7B2AD8E5DA /* SpatialSnapshotRealityKit */; };
+		96465845C60033D81D09FB8D /* SpatialSnapshotCapture in Frameworks */ = {isa = PBXBuildFile; productRef = BB32BA832ECCF02372F4EF2C /* SpatialSnapshotCapture */; };
+		A904E7DF5C4B443D89449CF7 /* Room.mov in Resources */ = {isa = PBXBuildFile; fileRef = E6654FF59C6D2ED966ADE822 /* Room.mov */; };
+		D13CA277CA9CA6431CDA527C /* Room.heic in Resources */ = {isa = PBXBuildFile; fileRef = 91FCED6C8389ECABD483D150 /* Room.heic */; };
+		D6F0CC19060CBB1BD362F7B9 /* LabModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE41183498552EC3DE5E7B3 /* LabModel.swift */; };
+		F4BEED3DE1F02841ABA8BE4F /* SpatialSceneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A486DAE8D1DCE1C2C4EDF3BB /* SpatialSceneView.swift */; };
+		F9A82592F5C8286386EABB2C /* SpatialSnapshot in Frameworks */ = {isa = PBXBuildFile; productRef = 2A6C21666816E10EAB005512 /* SpatialSnapshot */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A1ED17000000000000000701 /* Signing.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Signing.xcconfig; sourceTree = "<group>"; };
+		A1ED17000000000000000602 /* SpatialCaptureShare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpatialCaptureShare.swift; sourceTree = "<group>"; };
+		A1ED17000000000000000502 /* LabRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabRootView.swift; sourceTree = "<group>"; };
+		A1ED17000000000000000402 /* ThirdPartyNotices.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = ThirdPartyNotices.txt; sourceTree = "<group>"; };
+		A1ED17000000000000000200 /* EditorTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Editor/EditorTypes.swift; sourceTree = "<group>"; };
+		A1ED17000000000000000201 /* EditorProjectStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Editor/EditorProjectStore.swift; sourceTree = "<group>"; };
+		A1ED17000000000000000202 /* EditorModelAsset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Editor/EditorModelAsset.swift; sourceTree = "<group>"; };
+		A1ED17000000000000000203 /* EditorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Editor/EditorModel.swift; sourceTree = "<group>"; };
+		A1ED17000000000000000204 /* EditorGizmo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Editor/EditorGizmo.swift; sourceTree = "<group>"; };
+		A1ED17000000000000000205 /* EditorViewport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Editor/EditorViewport.swift; sourceTree = "<group>"; };
+		A1ED17000000000000000206 /* EditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Editor/EditorView.swift; sourceTree = "<group>"; };
+		EFA4A5913E1F46AE9045B202 /* InspectorPresentation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InspectorPresentation.swift; sourceTree = "<group>"; };
+		38A007151ABE87CC01A5B6E9 /* SpatialSnapshotLab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpatialSnapshotLab.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D7BB5F6B35325480D0443B2 /* SpatialSnapshotLabApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpatialSnapshotLabApp.swift; sourceTree = "<group>"; };
+		6E6B9F7E65A1904CC4D1944F /* InspectorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InspectorView.swift; sourceTree = "<group>"; };
+		91FCED6C8389ECABD483D150 /* Room.heic */ = {isa = PBXFileReference; lastKnownFileType = image.heic; path = Room.heic; sourceTree = "<group>"; };
+		A486DAE8D1DCE1C2C4EDF3BB /* SpatialSceneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpatialSceneView.swift; sourceTree = "<group>"; };
+		C9DBA5EA5A98DC457F7CE2D1 /* RecorderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecorderView.swift; sourceTree = "<group>"; };
+		DFE41183498552EC3DE5E7B3 /* LabModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabModel.swift; sourceTree = "<group>"; };
+		E6654FF59C6D2ED966ADE822 /* Room.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = Room.mov; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		86EEC7D29BB0BAAFB3D1A033 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9A82592F5C8286386EABB2C /* SpatialSnapshot in Frameworks */,
+				A1ED17000000000000000301 /* GLTFKit2 in Frameworks */,
+				0578DF4194A7220210614F48 /* SpatialSnapshotAppleMedia in Frameworks */,
+				96465845C60033D81D09FB8D /* SpatialSnapshotCapture in Frameworks */,
+				93A947AC0D645140565A9894 /* SpatialSnapshotRealityKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A1ED17000000000000000702 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				A1ED17000000000000000701 /* Signing.xcconfig */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		3B91224C671A3400805ED16F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				91FCED6C8389ECABD483D150 /* Room.heic */,
+				A1ED17000000000000000402 /* ThirdPartyNotices.txt */,
+				E6654FF59C6D2ED966ADE822 /* Room.mov */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		4D820FADAFBC7A1FCACC4F07 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				6E6B9F7E65A1904CC4D1944F /* InspectorView.swift */,
+				A1ED17000000000000000502 /* LabRootView.swift */,
+				A1ED17000000000000000602 /* SpatialCaptureShare.swift */,
+				A1ED17000000000000000200 /* EditorTypes.swift */,
+				A1ED17000000000000000201 /* EditorProjectStore.swift */,
+				A1ED17000000000000000202 /* EditorModelAsset.swift */,
+				A1ED17000000000000000203 /* EditorModel.swift */,
+				A1ED17000000000000000204 /* EditorGizmo.swift */,
+				A1ED17000000000000000205 /* EditorViewport.swift */,
+				A1ED17000000000000000206 /* EditorView.swift */,
+				EFA4A5913E1F46AE9045B202 /* InspectorPresentation.swift */,
+				DFE41183498552EC3DE5E7B3 /* LabModel.swift */,
+				C9DBA5EA5A98DC457F7CE2D1 /* RecorderView.swift */,
+				A486DAE8D1DCE1C2C4EDF3BB /* SpatialSceneView.swift */,
+				6D7BB5F6B35325480D0443B2 /* SpatialSnapshotLabApp.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		B28B7AF69320201D1CF206EB = {
+			isa = PBXGroup;
+			children = (
+				4D820FADAFBC7A1FCACC4F07 /* Sources */,
+				3B91224C671A3400805ED16F /* Resources */,
+				A1ED17000000000000000702 /* Configuration */,
+				FBDC4F23F93125BBEEAE800C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FBDC4F23F93125BBEEAE800C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				38A007151ABE87CC01A5B6E9 /* SpatialSnapshotLab.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0E8A3AD980EC179856012B7E /* SpatialSnapshotLab */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C57128001CE614BF8549D6BB /* Build configuration list for PBXNativeTarget "SpatialSnapshotLab" */;
+			buildPhases = (
+				6071F9AFBEA6A2705926ED81 /* Sources */,
+				86EEC7D29BB0BAAFB3D1A033 /* Frameworks */,
+				E7D041F73EBB15221780748C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpatialSnapshotLab;
+			packageProductDependencies = (
+				A1ED17000000000000000302 /* GLTFKit2 */,
+				2A6C21666816E10EAB005512 /* SpatialSnapshot */,
+				FC7528BAFD100FDB18BA31F7 /* SpatialSnapshotAppleMedia */,
+				BB32BA832ECCF02372F4EF2C /* SpatialSnapshotCapture */,
+				01DBB10C67AE7F7B2AD8E5DA /* SpatialSnapshotRealityKit */,
+			);
+			productName = SpatialSnapshotLab;
+			productReference = 38A007151ABE87CC01A5B6E9 /* SpatialSnapshotLab.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		98F54143AB4E86B28C3AFEE0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2600;
+				LastUpgradeCheck = 2600;
+				TargetAttributes = {
+					0E8A3AD980EC179856012B7E = {
+						CreatedOnToolsVersion = 26.0;
+					};
+				};
+			};
+			buildConfigurationList = 862894B703A6DEDF96A9DD6C /* Build configuration list for PBXProject "SpatialSnapshotLab" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = ja;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				ja,
+				Base,
+			);
+			mainGroup = B28B7AF69320201D1CF206EB;
+			packageReferences = (
+				A1ED17000000000000000303 /* GLTFKit2 */,
+				582681C2EAE02B3F3D399C0C /* XCLocalSwiftPackageReference "../.." */,
+			);
+			productRefGroup = FBDC4F23F93125BBEEAE800C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0E8A3AD980EC179856012B7E /* SpatialSnapshotLab */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E7D041F73EBB15221780748C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D13CA277CA9CA6431CDA527C /* Room.heic in Resources */,
+				A1ED17000000000000000401 /* ThirdPartyNotices.txt in Resources */,
+				A904E7DF5C4B443D89449CF7 /* Room.mov in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6071F9AFBEA6A2705926ED81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				777451758638016E29A595AE /* InspectorView.swift in Sources */,
+				A1ED17000000000000000100 /* EditorTypes.swift in Sources */,
+				A1ED17000000000000000101 /* EditorProjectStore.swift in Sources */,
+				A1ED17000000000000000102 /* EditorModelAsset.swift in Sources */,
+				A1ED17000000000000000103 /* EditorModel.swift in Sources */,
+				A1ED17000000000000000104 /* EditorGizmo.swift in Sources */,
+				A1ED17000000000000000105 /* EditorViewport.swift in Sources */,
+				A1ED17000000000000000106 /* EditorView.swift in Sources */,
+				EFA4A5913E1F46AE9045B201 /* InspectorPresentation.swift in Sources */,
+				D6F0CC19060CBB1BD362F7B9 /* LabModel.swift in Sources */,
+				8177A26853688243D4B6CDF5 /* RecorderView.swift in Sources */,
+				F4BEED3DE1F02841ABA8BE4F /* SpatialSceneView.swift in Sources */,
+				003FF4F45E2E9B02D437CBE3 /* SpatialSnapshotLabApp.swift in Sources */,
+				A1ED17000000000000000501 /* LabRootView.swift in Sources */,
+				A1ED17000000000000000601 /* SpatialCaptureShare.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		639A7CA24D39909E713B47F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1ED17000000000000000701 /* Signing.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SELECTED_FILES = readwrite;
+				GCC_C_LANGUAGE_STANDARD = c17;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.spatialsnapshot.lab;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7082CC0B6FC1282FCEABD07A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1ED17000000000000000701 /* Signing.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SELECTED_FILES = readwrite;
+				GCC_C_LANGUAGE_STANDARD = c17;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.spatialsnapshot.lab;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		89E1FD6268CC0F221A2BE178 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = c17;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		E6DE6C99132752C914FEF632 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = NO;
+				GCC_C_LANGUAGE_STANDARD = c17;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		862894B703A6DEDF96A9DD6C /* Build configuration list for PBXProject "SpatialSnapshotLab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89E1FD6268CC0F221A2BE178 /* Debug */,
+				E6DE6C99132752C914FEF632 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C57128001CE614BF8549D6BB /* Build configuration list for PBXNativeTarget "SpatialSnapshotLab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7082CC0B6FC1282FCEABD07A /* Debug */,
+				639A7CA24D39909E713B47F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		A1ED17000000000000000303 /* GLTFKit2 */ = {isa = XCLocalSwiftPackageReference; relativePath = Vendor/GLTFKit2; };
+		582681C2EAE02B3F3D399C0C /* XCLocalSwiftPackageReference "../.." */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../..;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A1ED17000000000000000302 /* GLTFKit2 */ = {isa = XCSwiftPackageProductDependency; package = A1ED17000000000000000303 /* GLTFKit2 */; productName = GLTFKit2; };
+		01DBB10C67AE7F7B2AD8E5DA /* SpatialSnapshotRealityKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 582681C2EAE02B3F3D399C0C /* XCLocalSwiftPackageReference "../.." */;
+			productName = SpatialSnapshotRealityKit;
+		};
+		2A6C21666816E10EAB005512 /* SpatialSnapshot */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 582681C2EAE02B3F3D399C0C /* XCLocalSwiftPackageReference "../.." */;
+			productName = SpatialSnapshot;
+		};
+		BB32BA832ECCF02372F4EF2C /* SpatialSnapshotCapture */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 582681C2EAE02B3F3D399C0C /* XCLocalSwiftPackageReference "../.." */;
+			productName = SpatialSnapshotCapture;
+		};
+		FC7528BAFD100FDB18BA31F7 /* SpatialSnapshotAppleMedia */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 582681C2EAE02B3F3D399C0C /* XCLocalSwiftPackageReference "../.." */;
+			productName = SpatialSnapshotAppleMedia;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 98F54143AB4E86B28C3AFEE0 /* Project object */;
+}

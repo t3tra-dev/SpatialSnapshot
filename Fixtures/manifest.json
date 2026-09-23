@@ -1,0 +1,50 @@
+{
+  "v1/minimal-still.ssps": {
+    "expected": "OK",
+    "bytes": 432
+  },
+  "v1/minimal-video.ssps": {
+    "expected": "OK",
+    "bytes": 656
+  },
+  "v1/mesh-depth-still.ssps": {
+    "expected": "OK",
+    "bytes": 624
+  },
+  "v1/geometry-video.ssps": {
+    "expected": "OK",
+    "bytes": 1019
+  },
+  "v1/lz4-overlap.ssps": {
+    "expected": "OK",
+    "bytes": 618
+  },
+  "v1/later-empty-checkpoint.ssps": {
+    "expected": "OK",
+    "bytes": 864
+  },
+  "v1/unknown-compressed-skipped.ssps": {
+    "expected": "OK",
+    "bytes": 491
+  },
+  "v1/extended-headers.ssps": {
+    "expected": "OK",
+    "bytes": 490
+  },
+  "malformed/duplicate-vertex.ssps": {
+    "expected": "MALFORMED",
+    "bytes": 624
+  },
+  "malformed/checkpoint-membership.ssps": {
+    "expected": "MALFORMED",
+    "bytes": 624
+  },
+  "malformed/payload-crc.ssps": {
+    "expected": "MALFORMED",
+    "bytes": 432
+  },
+  "unsupported/unknown-critical.ssps": {
+    "expected": "UNSUPPORTED_CRITICAL_PACKET",
+    "bytes": 486
+  }
+}
